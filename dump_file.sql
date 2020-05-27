@@ -61,7 +61,7 @@ CREATE TABLE `client` (
 
 LOCK TABLES `client` WRITE;
 /*!40000 ALTER TABLE `client` DISABLE KEYS */;
-INSERT INTO `client` VALUES (1,'pratik23','Pratik Kumar','7983951533','hey'),(2,'Jatin12','Jatin','1236547896','heyy'),(3,'Nishant123','Nishant Trivedi','1452369865','raja'),(4,'heeee123','HHH','1452369875','hui'),(5,'hell94','Hell','1452368975','hii'),(6,'satyapal12','satyapal yadav','9412833701','spy'),(7,'hello1','hello','1452369632','hey'),(10,'hel1','hel','1452879635','hey'),(12,'hi1','hi','1452369658','hey');
+INSERT INTO `client` VALUES (1,'pratik23','Pratik Kumar','7983951563','hey'),(2,'Jatin12','Jatin','1236547896','heyy'),(3,'Nishant123','Nishant Trivedi','1452369865','raja'),(4,'heeee123','HHH','1452369875','hui'),(5,'hell94','Hell','1452368975','hii'),(6,'satyapal12','satyapal yadav','9412833701','spy'),(7,'hello1','hello','1452369632','hey'),(10,'hel1','hel','1452879635','hey'),(12,'hi1','hi','1452369658','hey');
 /*!40000 ALTER TABLE `client` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -157,7 +157,7 @@ CREATE TABLE `shopper` (
 
 LOCK TABLES `shopper` WRITE;
 /*!40000 ALTER TABLE `shopper` DISABLE KEYS */;
-INSERT INTO `shopper` VALUES (1,'pratik06','Pratik Kumar','7983951533','Shyamji Vatika','Agra','India','Uttar Pradesh','hey'),(2,'Jatin123','Jatin Agggaral','145236897','Siknadra','Agra','Uttar Pradesh','India','heyy'),(3,'hell99','Hell','1452369863','Nowhere','Solar System','Universe','Galaxy','hii'),(4,'hel11','hel','1452897654','Nowhere','Solar System','Galaxy','Universe','hey');
+INSERT INTO `shopper` VALUES (1,'pratik06','Pratik Kumar','7983951573','Shyamji Vatika','Agra','India','Uttar Pradesh','hey'),(2,'Jatin123','Jatin Agggaral','145236897','Siknadra','Agra','Uttar Pradesh','India','heyy'),(3,'hell99','Hell','1452369863','Nowhere','Solar System','Universe','Galaxy','hii'),(4,'hel11','hel','1452897654','Nowhere','Solar System','Galaxy','Universe','hey');
 /*!40000 ALTER TABLE `shopper` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
