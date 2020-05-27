@@ -1,5 +1,7 @@
 # Solution
 
+You can import the data from .sql file.
+
 Importing a database requires setting up a blank database first.
 
 1. To create a blank database, launch the MySQL shell by entering:
