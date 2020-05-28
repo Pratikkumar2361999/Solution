@@ -6,29 +6,29 @@ Importing a database requires setting up a blank database first.
 
 1. To create a blank database, launch the MySQL shell by entering:
 
-mysql –u root –p
+    mysql –u root –p
 
 2. Enter the root password when prompted.
 
-The command prompt should change to show that you’re working in MySQL.
+    The command prompt should change to show that you’re working in MySQL.
 
 3. Next, create a new database by entering the following:
 
-  CREATE DATABASE new_db_name;
+    CREATE DATABASE new_db_name;
 
-  The system should return with Query OK, 1 row affected (0.00 sec). Note:
+    The system should return with Query OK, 1 row affected (0.00 sec). Note:
 
-The command won’t run if the semicolon isn’t entered at the end of the command.
+    The command won’t run if the semicolon isn’t entered at the end of the command.
 
 4. Exit the MySQL shell by pressing Ctrl-D.
-   The command prompt should return to normal.
+    The command prompt should return to normal.
 
 5. Enter the following command to import the dump file:
 
-  mysql –u username –p new_db_name < dump_file.sql
+    mysql –u username –p new_db_name < dump_file.sql
 
-  You’ll only see a response if there are errors.
-A successful import won’t display any comments on the screen.
+    You’ll only see a response if there are errors.
+    A successful import won’t display any comments on the screen.
 
 6. To check the database, log back into the MySQL shell:
 
