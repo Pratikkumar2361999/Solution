@@ -36,11 +36,11 @@ A successful import won’t display any comments on the screen.
 
 7. To load the database, enter:
 
-  USE new_db_name
+    USE new_db_name
 
 8. Display the contents of the database by typing:
 
-  SHOW TABLES;
+    SHOW TABLES;
 
 This above guide is taken from
 https://phoenixnap.com/kb/import-and-export-mysql-database
